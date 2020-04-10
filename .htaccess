@@ -4,11 +4,10 @@
 # généré dynamiquement, et ne doivent uniquement être modifiées via les filtres WordPress.
 # Toute modification des directives entre ces marqueurs sera outrepassée.
 <IfModule mod_rewrite.c>
+RewriteBase /
 RewriteEngine On
-RewriteBase /yeswecange/
-#RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 </IfModule>
 
