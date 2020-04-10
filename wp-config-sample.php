@@ -19,16 +19,16 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'votre_nom_de_bdd');
+define('DB_NAME', 'brfe41ryhuzpzucxwgy3');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'votre_utilisateur_de_bdd');
+define('DB_USER', 'u68drxymu9hg27tr');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'votre_mdp_de_bdd');
+define('DB_PASSWORD', '5UuYA1l3aPSbhvTPGnU0');
 
 /** Adresse de l’hébergement MySQL. */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'brfe41ryhuzpzucxwgy3-mysql.services.clever-cloud.com');
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8');
@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '%c%dMz$W67ui(~7uLTJLu{#tXxE3`%r~3a?d>1dAz|Oej#+{.H28@(M=49vD;rr[');
+define('SECURE_AUTH_KEY',  ';=rCb4?.4cw&Rjo)oADHhDY:&#GGrzC!2&!h7{^(ZD99a73b2@^B#wF|ACD[g}y`');
+define('LOGGED_IN_KEY',    '84.fM`IBdUSCL%`9QXdG>FW/e4X)W}CUr9*P>>Z-~[1]^tCh#Crk;g-3hd>vc$T6');
+define('NONCE_KEY',        '/_z(FfY`uAsQ;rI_VcUaB0<&(*-n}~-A6_99gR)8[X{c$JnT<.bPmpFm#, :L7f?');
+define('AUTH_SALT',        '&QWSEpiO?N?8E*KJ(IkagEP-A[*0>wwoCQ%=CzL!vgjK:0z#>$|_ZSGV9tSTedFk');
+define('SECURE_AUTH_SALT', 'm0^HzL{{3G1 B$:mUCL9fj7x]%:#AnzcjtCBF|(FN/9$l0LiciT<Je4$*p`J7m]f');
+define('LOGGED_IN_SALT',   ';]i590}Nr].D:siT[In>W7xR,F-@*|QwpmN8731B2y{u9(@0`6bDIMxe7#MY|%%x');
+define('NONCE_SALT',       'x6Z}55!~~wAlK11/OyTg $pdhSrhR4gDh{bT[kgtO7S$eg20`gqe009+G$PArgw@');
 /**#@-*/
 
 /**
@@ -66,7 +66,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * si vous leur donnez chacune un préfixe unique.
  * N’utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés !
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wp_ywc';
 
 /**
  * Pour les développeurs : le mode déboguage de WordPress.
