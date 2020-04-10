@@ -27,7 +27,7 @@ define('DB_NAME', trim($db["brfe41ryhuzpzucxwgy3"],"/"));
 
 /** Utilisateur de la base de données MySQL. */
 //define( 'DB_USER', 'b7_25471405' );
-efine('DB_USER', $db["u68drxymu9hg27tr"]);
+define('DB_USER', $db["u68drxymu9hg27tr"]);
 
 /** Mot de passe de la base de données MySQL. */
 //define( 'DB_PASSWORD', 'HermannYaho4978' );
